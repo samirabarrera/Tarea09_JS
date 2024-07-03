@@ -1,5 +1,5 @@
-//En una simulación de radar, los datos de enemigos y sus distancias cambian dinámicamente. Escribe un programa que lea
-//continuamente el nombre y la distancia de dos enemigos y determine 
+//En una simulación de radar, los datos de enemigos y sus distancias cambian dinámicamente.
+//Escribe un programa que lea continuamente el nombre y la distancia de dos enemigos y determine 
 //cuál de ellos está más cerca. Asegúrate de que el programa maneje
 //correctamente entradas donde las distancias pueden cambiar rápidamente. Utiliza prompt para ingresar los datos.
 
