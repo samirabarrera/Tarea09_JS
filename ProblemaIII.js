@@ -10,15 +10,30 @@ enemy2: "Enemy2"
 dist2: 30
 
 Salida:
-Enemy2
-
+"Enemy2"
 enemy1: "Enemy1" 
 dist1: 25
 enemy2: "Enemy2"
 dist2: 45
 
 Salida:
-Enemy1
+"Enemy1"
 
+//Entrada
+let enemy1 = "Enemy1"
+let dist1 = parseInt(50, 25);
 
+let enemy2 = "Enemy2"
+let dist2 = parseInt(30, 45);
 
+function gettingNameDistance (){
+    if (dist1 < dist2) {
+        prompt ("Distancia aceptada")
+    } else {
+        (dist1 !== dist2)
+        prompt ("Entre cualquier distancia mayor a cero para calcular")
+    }
+}
+
+const calculatingDistance = gettingNameDistance (dist1, dist2);
+console.log (`Calculando la distancia: ${calculatingDistance}`);
