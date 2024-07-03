@@ -1,6 +1,5 @@
 //En un juego de disparos, tu objetivo es atacar siempre al enemigo más cercano.
-//Escribe un programa que lea continuamente el nombre y la distancia de dos enemigos
-//seleccione el objetivo más cercano para atacar.
+//Escribe un programa que lea continuamente el nombre y la distancia de dos enemigos seleccione el objetivo más cercano para atacar.
 //Si ambos enemigos están a la misma distancia, selecciona el que aparece primero.
 
 Entrada: 
@@ -11,13 +10,13 @@ enemy2: "EnemyY"
 dist2: 15
 
 Salida:
-EnemyX
+"EnemyX"
 
 
-let enemy1 = EnemyX;
+let enemy1 = "EnemyX";
 let dist1 = parseInt(15); 
 
-let enemy2 = EnemyY;
+let enemy2 = "EnemyY";
 let dist2 = parseInt(15);
 
 
