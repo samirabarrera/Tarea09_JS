@@ -28,10 +28,10 @@ let dist2 = parseInt(30, 45);
 
 function gettingDistance (){
     if (dist1 < dist2) {
-        prompt ("Distancia aceptada")
+        prompt ("Distancia del enemigo 1 es mayor a la distancia del enemigo 2")
     } else {
-        (dist1 !== dist2)
-        prompt ("Entre cualquier distancia mayor a cero para calcular")
+        (dist1 > dist2)
+        prompt ("Distancia de enemigo dos es menor a al enemigo 1")
     }
 }
 const calculatingDistance = gettingDistance (dist1, dist2);
