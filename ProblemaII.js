@@ -21,9 +21,10 @@ let dist2 = parseInt(15);
 
 function attackEnemy () {
     if (dist1 === dist2) {
-        console.log ('Atacando');
+        return enemy1;
     } else {
         (dist1 !== dist2)
+        return enemy2
     }
 }
 const enemyCloser = attackEnemy ();
