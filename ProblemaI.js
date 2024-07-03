@@ -7,22 +7,23 @@ dist1: 10
 enemy2: "EnemyB"
 dist2: 20
 
-//Salida:
-//EnemyA
+Salida:
+"EnemyA"
 
 
-let enemy1 = EnemyA;
-let dist1 = parseInt(10); 
+let enemy1 = "EnemyA";
+let dist1 = parseInt(10);
 
-let enemy2 = EnemyB;
+let enemy2 = "EnemyB";
 let dist2 = parseInt(20);
 
-function calcularDistancia (dist1, dist2){
+function calcularDistancia(dist1, dist2) {
     if (dist1 < dist2) {
-        console.log (enemy1)
+        return enemy1;
     } else {
-        console.log (enemy2)
+        return enemy2;
     }
 }
-const distanciaCerca = calcularDistancia();
+
+const distanciaCerca = calcularDistancia(dist1, dist2);
 console.log(`La distancia más corta es: ${distanciaCerca}`);
