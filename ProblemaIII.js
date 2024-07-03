@@ -26,7 +26,7 @@ let dist1 = parseInt(50, 25);
 let enemy2 = "Enemy2"
 let dist2 = parseInt(30, 45);
 
-function gettingNameDistance (){
+function gettingDistance (){
     if (dist1 < dist2) {
         prompt ("Distancia aceptada")
     } else {
@@ -34,6 +34,5 @@ function gettingNameDistance (){
         prompt ("Entre cualquier distancia mayor a cero para calcular")
     }
 }
-
-const calculatingDistance = gettingNameDistance (dist1, dist2);
+const calculatingDistance = gettingDistance (dist1, dist2);
 console.log (`Calculando la distancia: ${calculatingDistance}`);
