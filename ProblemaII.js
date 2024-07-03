@@ -12,7 +12,6 @@ dist2: 15
 Salida:
 "EnemyX"
 
-
 let enemy1 = "EnemyX";
 let dist1 = parseInt(15); 
 
@@ -27,6 +26,5 @@ function attackEnemy () {
         (dist1 !== dist2)
     }
 }
-
 const enemyCloser = attackEnemy ();
 console.log(`Atacando al enemigo más cerca: ${enemyCloser}`);
